@@ -1,0 +1,30 @@
+Source: qdiskinfo
+Section: utils
+Priority: optional
+Maintainer: Boyuan Yang <byang@debian.org>
+Build-Depends:
+ cmake,
+ debhelper-compat (= 13),
+ dh-exec,
+ libgl-dev,
+ libxkbcommon-dev,
+ qt6-base-dev,
+ qt6-tools-dev,
+ qt6-tools-dev-tools,
+Standards-Version: 4.7.2
+Homepage: https://github.com/edisionnano/QDiskInfo
+Vcs-Git: https://salsa.debian.org/debian/qdiskinfo.git
+Vcs-Browser: https://salsa.debian.org/debian/qdiskinfo
+
+Package: qdiskinfo
+Architecture: any
+Depends:
+ pkexec,
+ qt6-wayland,
+ smartmontools,
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: CrystalDiskInfo alternative for Linux
+ QDiskInfo is a frontend for smartctl. It provides a user experience
+ similar to CrystalDiskInfo. It shows the SMART (Self-Monitoring,
+ Analysis, and Reporting Technology) data of modern hard disk drives.

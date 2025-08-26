@@ -1,0 +1,70 @@
+qdiskinfo (0.4-1) UNRELEASED; urgency=medium
+
+  * new upstream
+
+ -- coolshou <coolshou2060@gmail.com>  Tue, 26 Aug 2025 14:02:57 +0800
+
+qdiskinfo (0.3+git20250416+ds-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 17 Apr 2025 11:02:36 -0400
+
+qdiskinfo (0.3+git20250329+ds-1) unstable; urgency=medium
+
+  * debian/control: Add new build-dep requirement: qt6-tools-dev-tools.
+  * New upstream snapshot.
+
+ -- Boyuan Yang <byang@debian.org>  Mon, 31 Mar 2025 13:44:51 -0400
+
+qdiskinfo (0.3+git20250128+ds-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 02 Feb 2025 09:54:10 -0500
+
+qdiskinfo (0.3+git20241225+ds-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * debian/qdiskinfo.install: Also install the 256x256 icon.
+
+ -- Boyuan Yang <byang@debian.org>  Fri, 03 Jan 2025 13:54:26 -0500
+
+qdiskinfo (0.3+git20240909+ds-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * debian/qdiskinfo.install: Also install the 48x48 icon.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 10 Sep 2024 16:10:35 -0400
+
+qdiskinfo (0.3+git20240822+ds-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * debian/patches/: Dropped, useless.
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 22 Aug 2024 18:48:49 -0400
+
+qdiskinfo (0.3+git20240820+ds-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * debian/patches/0001: Add dynamic qm file build support.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 20 Aug 2024 11:28:52 -0400
+
+qdiskinfo (0.2+git20240816+ds-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 18 Aug 2024 14:52:57 -0400
+
+qdiskinfo (0.2+git20240812+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 15 Aug 2024 10:24:10 -0400
+
+qdiskinfo (0.2+git20240810+ds-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1078465)
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 10 Aug 2024 21:12:16 -0400

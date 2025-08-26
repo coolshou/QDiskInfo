@@ -1,0 +1,3 @@
+#! /usr/bin/dh-exec
+dist/QDiskInfo.png /usr/share/icons/hicolor/48x48/apps/
+dist/QDiskInfo-256x256.png => /usr/share/icons/hicolor/256x256/apps/QDiskInfo.png
